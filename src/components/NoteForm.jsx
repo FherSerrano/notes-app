@@ -6,7 +6,7 @@ const NoteForm = ({notes, setNotes}) => {
         title: '',
         category: 'work',
         priority: 'Medium',
-        desription: ''
+        description: ''
     })
 
     const [isFormVisible, setIsFormVisible] = useState(false)
